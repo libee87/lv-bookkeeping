@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LV Bookkeeping and Tax Consulting</title>
+  <style>
+    :root {
+      --orange: #d67a3e;
+      --gold: #c6a84f;
+      --green: #5c7a29;
+      --neutral: #f8f6f2;
+      --dark: #2e2e2e;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--neutral);
+      color: var(--dark);
+    }
+
+    header {
+      background-color: var(--gold);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: var(--orange);
+      color: white;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--green);
+    }
+
+    footer {
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 2rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: var(--green);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LV Bookkeeping</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Professional Bookkeeping & Tax Consulting</h2>
+    <p>Helping you stay financially organized and tax compliant</p>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>LV Bookkeeping and Tax Consulting offers reliable and professional financial services tailored for individuals and small businesses. With a focus on accuracy, compliance, and personalized support, we are your trusted partner in managing finances and taxes.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Bookkeeping & Financial Records</li>
+      <li>Tax Preparation & Filing</li>
+      <li>Payroll Services</li>
+      <li>Business Consulting</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LV Bookkeeping and Tax Consulting. All rights reserved.</p>
+  </footer>
+</body>
+</html>
